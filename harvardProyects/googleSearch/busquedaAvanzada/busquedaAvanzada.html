@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/busquedaAvanzada/busquedaAvanzada.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div >
+            <img src="/busquedaAvanzada/google_logo.svg" alt="Google logo" id="Google-logo">
+        </div>
+        <div>
+            <p id="leyenda-heder">Búsqueda avanzada</p>
+        </div>
+        <div id="separador">s</div>
+    </header>
+        <div id="contenedor-busqueda">
+            <div class="zona-busqueda">
+               <div class="zona-busqueda-hijos etiqueta-p"><p>Mostrar páginas que contengan...</p></div>
+                <div class="zona-busqueda-hijos etiqueta-input"><input type="text" id="primero" disabled></div>
+                <div class="zona-busqueda-hijos etiqueta-p"><p>Para hacer esto en el cuadro de búsqueda</p></div>
+                
+            </div>
+            <div class="zona-busqueda">
+                <div class="zona-busqueda-hijos etiqueta-p"><p>todas estas palabras:</p></div>
+                <div class="zona-busqueda-hijos etiqueta-input"><input type="text"></div>
+                <div class="zona-busqueda-hijos etiqueta-p"><p>Ingresa las palabras importantes: Terrier ratonero tricolor .</p></div>
+            </div>
+            <div class="zona-busqueda">
+                <div class="zona-busqueda-hijos etiqueta-p"><p>esta palabra o frase exactas:</p></div>
+                <div class="zona-busqueda-hijos etiqueta-input"><input type="text"></div>
+                <div class="zona-busqueda-hijos etiqueta-p"><p>ngresa las palabras exactas entre comillas: "Terrier ratonero" .</p></div>
+            </div>
+            <div class="zona-busqueda">
+                <div class="zona-busqueda-hijos etiqueta-p"><p>cualquiera de estas palabras:</p></div>
+                <div class="zona-busqueda-hijos etiqueta-input"><input type="text"></div>
+                <div class="zona-busqueda-hijos etiqueta-p"><p>Ingresa OR entre las palabras que desees: En miniatura OR estándar .</p></div>
+            </div>
+            <div class="zona-busqueda">
+                <div class="zona-busqueda-hijos etiqueta-p"><p>ninguna de estas palabras:</p></div>
+                <div class="zona-busqueda-hijos etiqueta-input"><input type="text"></div>
+                <div class="zona-busqueda-hijos etiqueta-p"><p>Ingresa un signo menos justo delante de las palabras que no deseas que aparezcan: -Roedor, -"Jack Russell" .</p></div>
+            </div>
+            <div class="zona-busqueda">
+                <div class="zona-busqueda-hijos etiqueta-p"><p>números del:</p></div>
+                <div class="zona-busqueda-hijos etiqueta-input"><input id="ultimo" type="text"></div>
+                <div class="zona-busqueda-hijos etiqueta-p" id="al"><p>al</p></div>
+                <div class="zona-busqueda-hijos etiqueta-input"><input id="ultimo2" type="text"></div>
+                <div class="zona-busqueda-hijos etiqueta-p"><p>Ingresa dos puntos entre los números y agrega una unidad de medida: 10..35 lb, $300..$500, 2010..2011.</p></div>
+            </div>
+            <input type="button" value="Búsqueda avanzada" name="busqueda-avanzada" id="buscar">
+        </div>
+    <script src="/busquedaAvanzada/busquedaAvanzada.js"></script>
+</body>
+</html>

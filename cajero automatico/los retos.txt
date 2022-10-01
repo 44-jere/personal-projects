@@ -1,0 +1,4 @@
+reto
+agregar al ciclo la generación de imagenes para agregar objetos a un elemento del arbol de object model
+que la caja del cajero automatico se quede vacia, cada vez que yo saco diero restarle a la variable caja los billetes colocados en la variable entregado
+ver de que manera puedo optimizar estos retos para ponerlo en la menor cantidad de lineas de codigos posibles.
